@@ -31,7 +31,7 @@ public class LibrosPrueba {
 		return libros.remove(id);
 	}	
 	
-	public static Libro prestar(int id) {
+	public static Libro get(int id) {
 		return libros.get(id);
 	}
 	
