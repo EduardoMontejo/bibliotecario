@@ -2,8 +2,13 @@ package co.com.ceiba.bibliotecario.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Prestamo {
 	
+	@Id
 	private String isbn;
 	private String nombreUsuario;
 	private LocalDate fechaPrestamo;

@@ -1,7 +1,12 @@
 package co.com.ceiba.bibliotecario.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Libro {
 	
+	@Id
 	private String isbn;
 	private String nombre;
 
